@@ -1,8 +1,9 @@
 class CompuTools:
-    def __init__(self):
-        pass
-
     def is_sorted(self, lista):
-        if lista == [1, 2, 3, 4]:
-            return True
-        return False
+        ordered = False
+        for i in range(len(lista)-1):
+            if lista[i] < lista[i+1]:
+                ordered = True
+            else:
+                return False
+        return ordered
