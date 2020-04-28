@@ -19,7 +19,7 @@ class TestDiagnostico(unittest.TestCase):
                            ([[5, 6, 17, 8, 10]]),
                            ([[1, 3, 5, 17, 9, 11]]),
                            ([[5, 6, 7, 18, 9, 10, 11, 12]]),
-                          ])
+                          ])        
     def test_is_not_sorted(self, list):
         compu = CompuTools()
         self.assertFalse(compu.is_sorted(list))
