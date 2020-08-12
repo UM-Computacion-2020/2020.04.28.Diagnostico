@@ -1,5 +1,5 @@
 import unittest
-from diagnostico import CompuTools
+from Diagnostico1 import CompuTools
 
 
 class TestDiagnostico(unittest.TestCase):
